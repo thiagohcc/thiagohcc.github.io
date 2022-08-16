@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paleta-de-cores {
+    color: #75704e;
+    color: #cacc90;
+    color: #f4ebbe;
+    color: #0d1b2a;
+    color: #188fa7;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+header {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 60px 0 20px;
+    border-bottom: #0d1b2a solid 3px;
+}
+
+#description {
+    text-align: left;
+    display: inline-block;
+    max-width: 25%;
+
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 30px 0 20px;
+    border-bottom: #0d1b2a solid 3px;
+
+}
+
+
+
+h1 {
+    color: #0d1b2a;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 30px;
+}
+
+strong {
+    color: #0d1b2a;
+    font-weight: 500;
+}
+
+em {
+    color: #75704e;
+    font-weight: 500;
+}
+
+h3 {
+    color: #0d1b2a;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: underline;
+    margin: 20px 0 10px;
+}
+
+ol {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+ul {
+    font-weight: 300;
+    text-transform: none;
+    list-style-type: circle;
+
+}
+
+li {
+    margin-left: 20px;
+}
+
+#foto-pessoal {
+    width: 200px;
+    padding: 5px;
+    background-color: #0d1b2a;
+}
+
+a {
+    color: #0d1b2a;
+}
+
+.links-menu {
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #0d1b2a;
+    border-radius: 5px;
+    margin: 20px 10px 300px 0px;
+    padding: 10px 20px;
+}
+
+.img-rounded {
+    display: inline-block;
+    border-radius: 100%;
+    margin: 30px 30px 0 0;
+}
+
+#skills {
+    display: inline-block;
+    margin: 0 50px 0 100px;
+    width: 35%;
+    vertical-align: top;
+}
+
+#links {
+    margin: 0 50px 0 0;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}

@@ -10,126 +10,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <style>
-
-        
-
-        .paleta-de-cores {
-            color: #75704e;
-            color: #cacc90;
-            color: #f4ebbe;
-            color: #0d1b2a;
-            color: #188fa7;
-        }
-
-        body {
-            background-color: #96dced;
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: 300;
-            font-size: 15px;
-            line-height: 20px;
-        }
-
-        h1 {
-            color: #0d1b2a;
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: 600;
-            text-transform: uppercase;
-            text-decoration: underline;
-        }
-
-        strong {
-            color: #0d1b2a;
-            font-weight: 500;
-        }
-
-        em {
-            color: #75704e;
-            font-weight: 500;
-        }
-
-        h3 {
-            color: #0d1b2a;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-
-        ol {
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-
-        ul {
-            font-weight: 300;
-            text-transform: none;
-            list-style-type: circle;
-        }
-
-        #foto-pessoal {
-            width: 300px;
-        }
-
-        a {
-            color: #0d1b2a;
-        }
-
-        .links-menu {
-            color: white;
-            font-size: 12px;
-            text-transform: uppercase;
-            text-decoration: none;
-            background-color: #a0a34f;
-            margin: 20px 10px 300px 0px;
-            padding: 10px 20px;
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
-    <h1>Thiago Henrique Cunha e Conceição</h1>
-    <p><a class="links-menu" href="#sobre-mim">Sobre mim</a><a class="links-menu" href="#habilidade">Minhas Habilidade</a><a class="links-menu" href="#links-uteis">Links útis</a></p>
+    <header>
+        <h1>Thiago Henrique Cunha e Conceição</h1>
+        <nav>
+            <a class="links-menu" href="#sobre-mim">Sobre mim</a><a class="links-menu" href="#habilidade">Minhas Habilidade</a><a class="links-menu" href="#links-uteis">Links útis</a>
+        </nav>
+        
+        <img id="foto-pessoal" class="img-rounded" src="imagens/foto-pessoal.jpg" alt="Foto de Thiago Henrique">
+        <section id="description">
+            <h3 id="sobre-mim">Sobre mim:</h3>
+            <p>Eu sou uma pessoa tranquila, curiosa e paciente. Atualmente estou muito <strong>feliz</strong> em estudar <strong>Desenvolvimento Web Full Stack na Trybe</strong>.<br>
+            Eu resido na cidade de Santa Luzia em Minas Gerais, <em>mas morei boa parte da minha vida em Belo Horizonte, capital do estado</em>.</br>
+        </section>
+    </header>
     
-    <img id="foto-pessoal" src="imagens/foto-pessoal.jpg" alt="Foto de Thiago Henrique">
     
-    <h3 id="sobre-mim">Sobre mim:</h3>
-    <p>Eu sou uma pessoa tranquila, curiosa e paciente. Atualmente estou muito <strong>feliz</strong> em estudar <strong>Desenvolvimento Web Full Stack na Trybe</strong>.<br>
-    Eu resido na cidade de Santa Luzia em Minas Gerais, <em>mas morei boa parte da minha vida em Belo Horizonte, capital do estado</em>.</br>
     
-    <h3 id="habilidade">Minhas habilidades:</h3>
-    <ol>
-        <li>SoftSkills</li>
+    <main>
+        <section id="skills">
+            <h3 id="habilidade">Minhas habilidades:</h3>
+            <ol>
+                <li>SoftSkills</li>
+                    <ul>
+                        <li>Empatia</li>
+                        <li>Resiliência</li>
+                    </ul>
+                    <br>
+                <li>HardSkills</li>
+                    <ul>
+                        <li>Unix & Bash</li>
+                        <li>Git & GitHub</li>
+                        <li>Internet</li>
+                        <li>HTML</li>
+                    </ul>
+                    <br>
+                <li>Outras Habilidade</li>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>InDesign</li>
+                    </ul>
+            </ol>
+        </section>
+        
+        <section id="links">
+            <h3 id="links-uteis">Links úteis:</h3>
             <ul>
-                <li>Empatia</li>
-                <li>Resiliência</li>
+                <li><a href="imagens/foto-pessoal.jpg">Minha foto pessoal</a></li>
+                <li><a href="https://github.com/thiagohcc" target="_blank">Meu GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/thiagohcc/" target="_blank">Meu LinkedIn</a></li>
             </ul>
-            <br>
-
-        <li>HardSkills</li>
-            <ul>
-                <li>Unix & Bash</li>
-                <li>Git & GitHub</li>
-                <li>Internet</li>
-                <li>HTML</li>
-            </ul>
-            <br>
-
-        <li>Outras Habilidade</li>
-            <ul>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>InDesign</li>
-            </ul>
-    </ol>
-
-<h3 id="links-uteis">Links úteis:</h3>
-    <ul>
-        <li><a href="imagens/foto-pessoal.jpg">Minha foto pessoal</a></li>
-        <li><a href="https://github.com/thiagohcc" target="_blank">Meu GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/thiagohcc/" target="_blank">Meu LinkedIn</a></li>
-    </ul>
+        </section>
+    </main>
     
 </body>
 </html>
